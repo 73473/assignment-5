@@ -4,8 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-TOUR</title>
+    <!-- ----------daisy ui & tailwind ------------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
+<body class="ml-[15%] ">
+    <header>
+        <!-- --------------------navbar start--------------------------- -->
+        <div class="navbar bg-base-100 w-[80%] mt-5 ">
+            <div class="flex-1">
+              <p class="font-extrabold text-3xl">E-Tour</p>
+            </div>
+            <div class="gap-6 relative right-96 text-gray-500">
+                <p>Home</p>
+                <p>About</p>
+                <p>Destination</p>
+                <p>Search</p>
+            </div>
+            <div class="flex-none gap-2 border-2 p-2 border-green-400 rounded-xl bg-green-100">
+                <p class="text-green-400 font-bold">Bus</p> 
+              <img src="images/bus-icon.png" alt="">
+            </div>
+          </div>
+        <!-- --------------------navbar finish-------------------------- -->
+        <!-- ---------------------banner start-------------------------------- -->
+        <section class="bg-[url('/images/banner.png')] w-[1171px] h-[550px] text-center mt-5 ">
+            <div class="h-[550px]  ">
+                <p class="text-white text-6xl font-extrabold relative top-20">End-to-End travel with <br><span class="text-green-400 ">E-Paribahan</span> </p>
+                <p class="text-white relative top-24">Presenting you the country's number one travel medium.E-paribahan offers <br> you extreme comforts and safety during your travel.</p>
+                <button class="relative top-28 border-green-600 rounded-xl border-2 px-6 py-2 bg-green-600 font-extrabold">Buy Tickets</button>
+            </div>
+        </section>
+        <!-- ---------------------banner finish------------------------------- -->
+
+    </header>
+    <main>
+        <!-- -----------------------------best offer start-------------------- -->
+        <section class="mt-20">
+            <div class=" text-center mb-10  w-4/5">
+                <p class="text-3xl font-extrabold">Best offers for you</p>
+            </div>
+            <!-- --------------------------yellow card start------------------ -->
+            <div class="flex gap-28">
+            <div class="flex gap-10 w-[500px] h-[200px] align-middle items-center bg-yellow-400 rounded-xl">
+                <div class="ml-2  w-[250px]">
+                    <p class="text-3xl font-extrabold">15% OFF</p>
+                    <p>on your next purchase</p>
+                    <p class="text-gray-600">use by january 2024</p>
+                    
+
+                </div>
+                <div><img class=" h-[200px]" src="images/cupon-devider.png" alt=""></div>
+                <div>
+                    <p class="text-3xl font-bold">NEW15</p>
+                    <p class="text-gray-600">coupon code</p>
+
+                </div>
+            </div>
+            <!-- -------------------------------yellow card end--------------- -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- ----------------------------pink card start-------------------- -->
+            <div class="flex gap-8 w-[500px] h-[200px] align-middle items-center rounded-xl bg-pink-300">
+                <div class="ml-2  w-[250px]">
+                    <p class="text-3xl font-extrabold">20% OFF</p>
+                    <p>on your next purchase</p>
+                    <p class="text-gray-600">use by january 2024</p>
+                    
+
+                </div>
+                <div><img class=" h-[200px]" src="images/cupon-devider.png" alt=""></div>
+                <div>
+                    <p class="text-3xl font-bold">Couple20</p>
+                    <p class="text-gray-600">coupon code</p>
+
+                </div>
+            </div>
+           
+        </div> 
+
+            <!-- -----------------------------pink card end --------------------- -->
+             <!-- -----------------------------button----------------------------- -->
+             <div class="text-center w-4/5 mt-20 ">
+                <button class="text-green-600 border-2 border-green-400 mr-28 px-7 py-2 rounded-md">See all offers</button>
+            </div>
+            
+            <!-- -----------------------------button----------------------------- -->
+           
+
+        </section>
+        <!-- -----------------------------best offer end---------------------- -->
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
