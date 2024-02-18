@@ -249,14 +249,14 @@
                  <!-- total price-------------------------------- -->
          <div class="mt-10 flex gap-48">
             <p>Total price <span></span></p>
-            <p>BDT <span>1100</span></p>
+            <p>BDT <span id="set-price">0</span></p>
         </div>
 
         <!-- ------------------coupon-------------------------------- -->
         <div class="mt-5">
-            <input type="text" placeholder="Have you any coupon?">
+            <input id="coupon" type="text" placeholder="Have you any coupon?">
             
-            <button class="border-2 bg-slate-400 p-2 rounded-sm">Apply</button>
+            <button onclick="check()" id="btn" class="border-2 bg-slate-400 p-2 rounded-sm">Apply</button>
         </div>
         <!-- ----------------grand total--------------------------- -->
         <div class="mt-10 flex gap-48">
