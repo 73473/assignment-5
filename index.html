@@ -9,8 +9,8 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body class="ml-[15%] ">
-    <header>
+<body class=" ">
+    <header class="ml-[15%]">
         <!-- --------------------navbar start--------------------------- -->
         <div class="navbar bg-base-100 w-[80%] mt-5 ">
             <div class="flex-1">
@@ -33,7 +33,7 @@
             <div class="h-[550px]  ">
                 <p class="text-white text-6xl font-extrabold relative top-20">End-to-End travel with <br><span class="text-green-400 ">E-Paribahan</span> </p>
                 <p class="text-white relative top-24">Presenting you the country's number one travel medium.E-paribahan offers <br> you extreme comforts and safety during your travel.</p>
-                <button class="relative top-28 border-green-600 rounded-xl border-2 px-6 py-2 bg-green-600 font-extrabold">Buy Tickets</button>
+                <a href="#ticket-part"> <button class="relative top-28 border-green-600 rounded-xl border-2 px-6 py-2 bg-green-600 font-extrabold">Buy Tickets</button> </a>
             </div>
         </section>
         <!-- ---------------------banner finish------------------------------- -->
@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- -----------------------------best offer start-------------------- -->
-        <section class="mt-20">
+        <section class="mt-20 ml-[15%]">
             <div class=" text-center mb-10  w-4/5">
                 <p class="text-3xl font-extrabold">Best offers for you</p>
             </div>
@@ -94,11 +94,207 @@
 
         </section>
         <!-- -----------------------------best offer end---------------------- -->
+        <!-- -------------------------------ticketing system start------------ -->
+     <section id="ticket-part">  
+        <div class=" text-center mr-[8%] mt-20 ">
+            <p class="text-3xl font-bold mt-10">E-Paribahan</p> <br>
+            <p class="text-gray-500">You can enjoy our digital ticketing system.You can buy tickets online and pay through our digital medium . <br> To buy tickets follow our proccessing mentioned below.</p>
+        </div>
+
+        <section class="relative left-80 p-4  w-[1050px] bg-slate-100 mt-10">
+            <!-- first part------------------------------------------------- -->
+           
+            <div class="mt-10 flex gap-40 ">
+                <div class="flex items-center gap-4">
+                    <img src="images/bus-logo.png" alt="">
+                    <p>Greenline Paribahan <br> <span>coach-009-WEB|AC_Business</span></p>
+                </div>
+                <div class="flex gap-2 border-green-400 border-2 items-center px-2 rounded-md bg-green-100">
+                    <img src="images/seat-green.png" alt="">
+                    <p id="seat-number">40</p>
+                    <p>seats left</p>
+                </div>
+            </div>
+            <!-- ------------------route time----------------------------------------- -->
+          <div class="flex items-center gap-52 ">  
+            <div>
+            <div class="flex gap-[440px] mt-10 border-b-2 border-dashed ">
+                <p>Route</p>
+                <p>Dhaka-Sylhet</p>
+
+            </div>
+            <div class="flex gap-96 mt-10 border-b-2 border-dashed ">
+                <p>Departure Time</p>
+                <p>9:00 PM</p>
+
+            </div>
+            <div class="flex gap-10  mt-10 ">
+                <p class="border-2 border-gray-300 rounded-md">Boarding Point-Laxmipur</p>
+                <p class="border-2 border-gray-300 rounded-md">Dropping Point-Bagura</p>
+                <p class="border-2 border-gray-300 rounded-md">Est. Time -11 hour</p>
+
+            </div>
+        </div> 
+         
+        <div>
+            <img src="images/fare.png" alt="">
+            <p>550 Taka</p>
+            <p>per seat</p>
+        </div>
+    </div> 
+        </section>
+
+        <!-- ----------------------------select your seat------------------------------- -->
+        <section class="relative left-80 mt-10 bg-slate-100 w-[1050px] p-5">
+         <div class="flex gap-10">  
+            <!-- -------------------sec1----------------------------------------------- -->
+            <div>
+                <p class="text-xl font-bold mb-5">Select your seat</p>
+                <div class="flex gap-80">
+                    <div class="flex items-center">
+                        <img src="images/seat-gray.png" alt="">
+                        <p>Available</p>
+                    </div>
+                    <div class="flex items-center">
+                        <img src="images/seat-green-filled.png" alt="">
+                        <p>selected</p>
+                    </div>
+                </div>
+                
+                <!-- --------------------seat no---------------------------- -->
+                <div  class="grid grid-cols-5 gap-6 mt-8">
+                    <p class="text-center">A</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">A1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">A2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">A3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">A4</p>
+                    
+                    <p class="  text-center ">B</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">B1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">B2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">B3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">B4</p>
+                    <p class="  text-center ">C</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">C1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">C2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">C3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">C4</p>
+                    <p class="  text-center ">D</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">D1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">D2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">D3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">D4</p>
+                    <p class="  text-center ">E</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">E1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">E2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">E3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">E4</p>
+                    <p class="  text-center ">F</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">F1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">F2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">F3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">F4</p>
+                    <p class="  text-center ">G</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">G1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">G2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">G3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">G4</p>
+                    <p class="  text-center ">H</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">H1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">H2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">H3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">H4</p>
+                    <p class="  text-center ">I</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">I1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">I2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">I3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">I4</p>
+                    <p class="  text-center ">J</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">J1</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">J2</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">J3</p>
+                    <p class="seat border-2 border-slate-300 rounded-md text-center bg-slate-300">J4</p>
+                    
+                </div> 
+
+            </div>
+            <!-- ---------------------------sec2--------------------------------------- -->
+            <div>
+                <img class="h-48" src="images/info-devider.png" alt="">
+                <img class="h-48" src="images/info-devider.png" alt="">
+                <img class="h-48" src="images/info-devider.png" alt="">
+
+
+            </div>
+            <!-- -----------------------------sec3------------------------------------- -->
+            <div>
+                <p class="text-xl font-bold">Select your seat</p>
+
+                <div class="flex gap-28 border-b-2 border-slate-300 border-dotted mt-6">
+                    <p>Seat <span id="add-seat" class="bg-green-300 px-2">0</span></p>
+                    <p>Class</p>
+                    <p>Price</p>
+                </div>
+                <!-- --------------SET SEAT------------------------------ -->
+             <div id="set-seat">  
+                <!-- <div class="flex gap-28  mt-6">
+                    <p>C2</p>
+                    <p>Economy</p>
+                    <p>550</p>
+                </div> -->
+                
+               
+            </div>    
+
+                 <!-- total price-------------------------------- -->
+         <div class="mt-10 flex gap-48">
+            <p>Total price <span></span></p>
+            <p>BDT <span>1100</span></p>
+        </div>
+
+        <!-- ------------------coupon-------------------------------- -->
+        <div class="mt-5">
+            <input type="text" placeholder="Have you any coupon?">
+            
+            <button class="border-2 bg-slate-400 p-2 rounded-sm">Apply</button>
+        </div>
+        <!-- ----------------grand total--------------------------- -->
+        <div class="mt-10 flex gap-48">
+            <p>Grand Total <span></span></p>
+            <p>BDT <span>1100</span></p>
+        </div>
+        <!-- -------------form------------------------------- -->
+        <div class="mt-5">
+            <form action="">
+                <label for="">Passenger Name</label> <br> <br>
+                <input type="text" placeholder="Enter your name"> <br> <br>
+                <label for="">Phone number*</label> <br><br>
+                <input type="number" name="" id="" placeholder="Enter your phone number"> <br> <br>
+                <label for="">Email</label> <br> <br>
+                <input type="email" name="" id="" placeholder="Enter your Email"> <br><br>
+                <button class="bg-green-400" type="submit">Next</button>
+            </form>
+
+        </div>
+                
+
+            </div>
+
+           
+            <!-- ------------------------------------------------------------------ -->
+        </div>
+        
+        
+       
+
+        
+        </section>
+    </section>     
 
     </main>
     <footer>
 
     </footer>
-    
+    <script src="script/script.js"></script>
 </body>
 </html>
