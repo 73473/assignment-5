@@ -32,9 +32,7 @@ for(const seat of seats){
        const div = document.createElement('div');
         div.classList.add("flex","gap-28","mt-6");
         setSeat.appendChild(div);
-    // const p = document.createElement('p');
-    // p.innerText = 'tania';
-    // setSeat.appendChild(p);
+    
        const p1 = document.createElement('p');
        p1.innerText = seatName;
        div.appendChild(p1);
@@ -60,22 +58,39 @@ for(const seat of seats){
     // const couponValue = coupon.value;
     // console.log(couponValue);
      
-    function check(){
-        const coupon = document.getElementById('coupon');
-    const couponValue = coupon.value.toUpperCase();
-    console.log(couponValue);
+    // function check(){
+    //     const coupon = document.getElementById('coupon');
+    // const couponValue = coupon.value.toUpperCase();
+    // console.log(couponValue);
 
-    const button = document.getElementById('btn') =couponValue;
+    // const button = document.getElementById('btn') =couponValue;
 
      
-    if(couponValue == NEW15 || couponValue == COUPLE20){
-        console.log('you are right');
-    }
-    else{
-        console.log('you are wrong');
-    }
-    }
+    // if(couponValue == NEW15 || couponValue == COUPLE20){
+    //     console.log('you are right');
+    // }
+    // else{
+    //     console.log('you are wrong');
+    // }
+    //}
+//    coupon again-----------------------------------------------
+        //  const coupon = document.getElementById('coupon');
+        //  const couponValue = coupon.value;
+        //  console.log(couponValue);
+        //  const button = document.getElementById('btn');
+        //  button.addEventListener('click',function(){
 
+        //     console.log(couponValue);
+        // })
+
+
+         if(count === 4){
+              const coupon = document.getElementById('coupon-sec');
+              coupon.classList.remove('hidden');
+             
+             
+         }
+       
 
      
 
@@ -83,3 +98,37 @@ for(const seat of seats){
     })
 }
 
+
+function calculateDiscount(){
+    const coupon = document.getElementById('coupon');
+      const couponValue = coupon.value.toUpperCase();
+      const tprice = document.getElementById('set-price').innerText;
+      
+
+      
+      if(couponValue === 'NEW15'){
+        const grandPrice = tprice -(tprice*.15);
+        console.log(grandPrice);
+        document.getElementById('grand-price').innerText = grandPrice;
+
+      }
+      else if(couponValue === 'COUPLE20' ){
+        const grandPrice = tprice -(tprice*.20);
+        console.log(grandPrice);
+        document.getElementById('grand-price').innerText = grandPrice;
+      }
+      else{
+        console.log('you have wrong coupon');
+      }
+
+}
+
+
+//--------------------final section---------------------------------------
+
+function final(){
+    const final = document.getElementById('main-section1');
+    final.classList.add('hidden');
+    const mainFinal = document.getElementById('main-section2');
+    mainFinal.classList.remove('hidden');
+}
